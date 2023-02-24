@@ -1,11 +1,9 @@
 # Book Search Engine
-
-## [Deployed Application](https://akw-book-search.herokuapp.com/)
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This application is a MERN stack application with a REACT front end, MongoDB database and Node.js/Experss.js server and API, and utilizes Google Books API. 
+This is a MERN stack application to browse and save books by title, author, genre, etc. refactored from a RESTful API to a GraphQL API. It is built with a React front end, MongoDB database and Node.js/Experess.js server and API, and utilizes Google Books API. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -17,16 +15,16 @@ This application is a MERN stack application with a REACT front end, MongoDB dat
 - [Questions](#questions)
 
 ## Installation
-To run the application, simply enter the URL in any browser.
+To install the application locally, ensure that [Node.js](https://nodejs.org/en/download/) and [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/) installed, then clone the repository from Github and run the installation script ```npm run install``` followed the start script ```npm run develop```. To view the application, visit http://localhost:3000/.
 
 ## Usage
-A user can login, browse books by title, author, genre, etc., save and remove books from their profile.
-
+To use the application, search for any book by title, author, genre, etc. After searching, a list of books including the title, an image and description will population. If the user wishes to save a book to their list, they can sign up or login then navigate to the book search and select the save option.
 ![Screenshot of application](./client/public/images/book-search-engine-screenshot.png)
 
 ## Credits
-Collaborators: UCLA Full Stack Flex Coding Bootcamp Starter Code <br>
-Amaryah Wolf
+Collaborators: <br>
+Amaryah Wolf <br>
+Starter Code provided by UCLA Extension Boot Camps
 
 ## License
 This application is covered under the MIT license.
